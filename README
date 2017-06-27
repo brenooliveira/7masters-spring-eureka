@@ -1,0 +1,21 @@
+## Rodando a aplicação
+
+
+Primeiro suba o Eureka Service Discovery
+```
+$ cd eureka-service
+mvn spring-boot:run
+```
+
+
+Depois o client
+```
+$ cd eureka-client
+mvn spring-boot:run
+```
+
+Acessa a seguinte URL para ver
+
+```
+http://localhost:8080/service-instances/sevenmasters-client
+```
